@@ -1,0 +1,105 @@
+#hero-section {
+   background-image: url("images/panorama4.jpg");
+   background-size: cover; 
+   height: 548px;
+   text-align: center;
+   font-size: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#title {
+    background: #8ecae6;
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+}
+#subtitle {
+    background: #023047;
+    color: #8ecae6;
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+}
+body {
+    margin: 0;
+    color: #023047;
+    font-family: 'Source Sans Pro', sans-serif
+}
+#main-activity-section {
+    background: #caf0f8;
+}
+#activity-section {
+    display: flex;
+    justify-content: space-around;
+}
+.activity-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    opacity: 0.7;
+    transition: all 500ms ease;
+}
+.activity-image:hover {
+    opacity: 1;
+    border: 2px solid #023047;
+    width: 325px;
+    height: 325px;
+}
+#activity-title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+    padding: 30px 0 15px 0;
+}
+.activity-subtitles {
+    text-align: center;
+    width: 300px;
+}
+.activity-text {
+    width: 300px;
+    text-align: center;
+}
+#news-events-section {
+    display: flex;
+    background: #023047;
+    /* border-top: 3px solid #023047 ; */
+}
+#news {
+    width: 50%;
+}
+#events {
+    width: 50%;
+}
+.news-events-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.news-events-img:hover {
+    opacity: 1;
+}
+.news-events-article {
+    display: flex;
+    padding: 10px;
+    border: 1px solid #023047;
+    background: #ffc73b;
+    border-radius: 10px;
+}
+.news-events-text {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 600px;
+    padding: 15px;
+}
+.news-events-title {
+    padding: 0 0 0 25px;
+    font-size: 25px;
+    margin: 10px 0 15px 0;
+    color: #8ecae6;
+}
+.news-events-subtitle {
+    margin-bottom: 0;
+}
